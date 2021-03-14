@@ -1,12 +1,12 @@
 local version = "1.0"
 -- modifiable variables
- local reactorSide = "left"
- local outputfluxgateSide = "top"
+local reactorSide = "left"
+local outputfluxgateSide = "top"
 
- local targetFieldStrengthPercent = 50
- local maxTemperature = 8000
- local safeTemperature = 7500
- local lowestFieldPercent = 25
+local targetStrength = 50
+local maxTemperature = 8000
+local safeTemperature = 7500
+local lowestFieldPercent = 25
 
 -- please leave things untouched from here on
 os.loadAPI("lib/f")
